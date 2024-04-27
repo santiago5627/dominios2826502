@@ -2,22 +2,23 @@
 <sim-project version="13.96" multi-file="no" uid="simp8f30010fc70e4402aaa963cf2828cbcb">
   <meta>
     <name>Talller 2 POO java 2826502</name>
-    <authors> Angel Angarita </authors>
+    <authors> </authors>
     <description />
   </meta>
-  <counters models="1">
+  <counters models="2">
     <entity-names />
     <entity-ids />
     <diagrams>
       <counter>
         <type>SoftwareIdeasModeler.Core.Diagrams.UmlDiagrams.UmlClassDiagram</type>
-        <value>1</value>
+        <value>3</value>
       </counter>
     </diagrams>
     <fields />
   </counters>
   <alias-groups />
   <management uid="md-4b30ee9a00244631983843a70a5099f9" name="" task-id-sequence="0">
+    <working-schedule uid="ws-aadb6a07e954496aa3c960278523a26a" hours="8" monday="8" tuesday="8" wednesday="8" thursday="8" friday="8" saturday="0" sunday="0" />
     <persons>
       <person id="">
         <first-name />
@@ -27,6 +28,7 @@
         <phone-number />
         <description />
         <color>#00000000</color>
+        <working-schedule uid="ws-dcb4fcf26f544ceb8d5a7981340c9697" hours="8" monday="8" tuesday="8" wednesday="8" thursday="8" friday="8" saturday="0" sunday="0" />
       </person>
     </persons>
     <teams />
@@ -47,5 +49,39 @@
     </custom-types>
   </types>
   <items />
-  <models />
+  <models>
+    <model id="p1944d6ca08bf4032beb4dfe82b83dee9_166671403" name="Model2" namespace="" order-index="1">
+      <meta>
+        <authors>
+          <author> </author>
+        </authors>
+        <description />
+        <creation-date>04/26/2024 15:30:43</creation-date>
+        <change-date>01/01/0001 00:00:00</change-date>
+        <revision-count>0</revision-count>
+        <version />
+      </meta>
+      <abstract-items />
+      <sub-models />
+      <diagram type="uml-class" id="pce0b3c03937b45afab60d53de1d18ae2_771266942" name="ClassDiagram2" order-index="1" uid="" auto-routed-paths="false" default-line-style="default">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author> </author>
+          </authors>
+          <description />
+          <creation-date>04/26/2024 15:34:23</creation-date>
+          <change-date>04/26/2024 15:34:23</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items />
+        <layer id="761fc62a4c5c4f92a9ba1d2f80d73d17" name="Default" visible="true" enabled="true" locked="false" />
+      </diagram>
+    </model>
+  </models>
 </sim-project>

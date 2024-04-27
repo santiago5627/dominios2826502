@@ -1,9 +1,35 @@
 package org.cgmlti.dominios.java.ejercicio4;
 
-import java.time.LocalDateTime;
+import java.time.LocalDate;
+import java.time.Period;
 
 public class Viaje {
 
-    LocalDateTime fechaInicio;
-    LocalDateTime fechaFin;
+    LocalDate fechaInicio;
+    LocalDate fechaFin;
+
+    // crear un metodo que imprima
+    // la duracion del viaje
+    // dada la fecha de inicio y fin
+    // ingresadas como inputs
+
+    public void calcularDuracionViaje(
+            LocalDate fechaInicio,
+            LocalDate fechaFin) {
+        // asignar las fechas parametros
+        // a los atributos del viaje
+        this.fechaInicio = fechaInicio;
+        this.fechaFin = fechaFin;
+        Period diferencia = Period.between(fechaInicio, fechaFin);
+
+        System.out.println(" duracion del viaje " + diferencia.getDays() + " dias ");
+
+    }
+
+    // sobrecarga del metodo calcularDuracion
+    public int calcularDuracionViaje() {
+        Period diferencia = Period.between(fechaInicio, fechaFin);
+        return diferencia.getDays();
+    }
+
 }
